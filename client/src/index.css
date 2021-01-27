@@ -36,6 +36,37 @@ body {
   justify-content: space-between;
 }
 
+.update-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+.update-form input {
+  font-size: 1.5rem;
+  margin: .25rem;
+}
+.update-form button {
+  font-size: 1.5rem;
+  margin: .5rem;
+}
+.add-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.add-form input {
+  font-size: 1.5rem;
+  margin: .25rem;
+}
+.add-form button {
+  font-size: 1.5rem;
+  margin: .5rem;
+}
+
+
 .saved-list h3 {
   margin-right: 10px;
 }
@@ -69,6 +100,13 @@ body {
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+  margin: 1rem
+}
+
+.add-movie-button {
+  padding: 5px 10px;
+  background-color: lightskyblue;
+  margin: 1rem
 }
 
 .movie-warning {
